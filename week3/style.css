@@ -1,0 +1,35 @@
+.head1{
+    color : rgb(200, 197, 207);
+    font-size: 105px;
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 200px;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: rgba(177, 88, 88, 0.151);
+    font-family: "Aladin", system-ui;
+    border: 5px dotted goldenrod;
+    text-align: center;
+    background-color: rgba(8, 8, 8, 0.233);
+}
+
+.par1{
+    color : rgb(112, 32, 32);
+    font-size: 100px;
+    -webkit-text-stroke-color: 3px rgb(236, 8, 8);
+    -webkit-text-stroke: 3px rgb(241, 239, 238);
+    font-family: "Hanalei Fill", system-ui;
+}
+
+.par2{
+    color : rgb(43, 158, 143);
+    font-size: 100px;
+    -webkit-text-stroke-color: rgb(221, 192, 192);
+    -webkit-text-stroke: 3px gainsboro;
+    font-family: "Hanalei Fill", system-ui;
+}
+
+body {
+    background-color: rgb(143, 127, 109);
+    background-image: url(images/jap.jpg);
+    background-size: cover;
+}
