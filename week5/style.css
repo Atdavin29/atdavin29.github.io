@@ -1,0 +1,52 @@
+.card {
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+h2, p {
+    margin: 0;
+}
+
+.card-header {
+    display: flex;
+
+}
+.card-header{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.main{
+    display: flex;
+    gap: 30px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.btn{
+    background: #EEAECA;
+    background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: purple;
+    cursor: pointer;
+}
+
+.card:hover{
+    background: #EEAECA;
+    background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: -1px 1px 14px 6px #635f5f;
+}
