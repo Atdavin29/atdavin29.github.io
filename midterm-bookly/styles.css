@@ -27,19 +27,19 @@ body {
 
 
 .hero {
-  background: url("./images/banner-image-bg.jpg") center/cover no-repeat;
+  background: url("https://atdavin29.github.io/midterm-bookly/images/banner-image-bg.jpg") center/cover no-repeat;
   min-height: 80vh;
 }
 
 
 .discount-banner {
-  background: url("./images/banner-image-bg-1.jpg") center/cover no-repeat;
+   background: url("https://atdavin29.github.io/midterm-bookly/images/banner-image-bg-1.jpg") center/cover no-repeat;
   min-height: 60vh;
 }
 
 
 .categories {
-  background: url("./images/banner-image-bg-2.jpg") center/cover no-repeat;
+  background: url("https://atdavin29.github.io/midterm-bookly/images/banner-image-bg-2.jpg") center/cover no-repeat;
   color: #fff;
 }
 
@@ -58,5 +58,6 @@ body {
 .footer a:hover {
   color: #f86d72 !important;
 }
+
 
 
