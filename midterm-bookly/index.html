@@ -1,289 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bookly - Online Bookstore</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bookly</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="py-2">
+      <nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/main-logo.png" alt="Logo" />
+          </a>
 
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
-    <div class="container">
-      <img src="images/main-logo.png" alt="Logo" class="d-inline-block align-text-top"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active text-accent fw-semibold" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <section class="hero py-5">
-    <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
-      <div class="text-center text-lg-start mb-4 mb-lg-0">
-        <h1 class="fw-bold display-5">The Fine Print<br>Book Collection</h1>
-        <p class="text-muted mt-3">Best Offer Save 30%. Grab it now!</p>
-        <a href="#" class="btn btn-accent px-4 py-2 rounded-pill">Shop Collection</a>
-      </div>
-      <div>
-        <img src="images/banner-image2.png" class="" alt="Book Cover" width="450">
-      </div>
-    </div>
-  </section>
-
-  <section class="container text-center py-5">
-    <div class="row">
-      <div class="col-md-3">
-        <h6 class="fw-bold">Free Delivery</h6>
-        <p class="text-muted">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
-      </div>
-      <div class="col-md-3">
-        <h6 class="fw-bold">Quality Guarantee</h6>
-        <p class="text-muted">Dolor sit amet orem ipsum mcons ectetur adipi elit.</p>
-      </div>
-      <div class="col-md-3">
-        <h6 class="fw-bold">Daily Offers</h6>
-        <p class="text-muted">Amet consectetur adipi elit loreme ipsum dolor sit.</p>
-      </div>
-      <div class="col-md-3">
-        <h6 class="fw-bold">100% Secure Payment</h6>
-        <p class="text-muted">Rem Lopsum dolor sit amet, consectetur adipi elit.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="container py-5">
-    <div class="d-flex justify-content-between align-items-center mb-4">
-      <h2 class="fw-bold">Best Selling Items</h2>
-      <a href="#" class="btn btn-accent rounded-pill">View All</a>
-    </div>
-    <div class="row g-4">
-      <div class="col-md-3">
-        <div class="card border-0 shadow-sm">
-          <img src="images/product-item1.png" class="card-img-top" alt="">
-          <div class="card-body text-center">
-            <h6 class="fw-bold">House Of Sky Breath</h6>
-            <p class="text-muted mb-1">Lauren Asher</p>
-            <p class="text-accent fw-bold">$870</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card border-0 shadow-sm">
-          <img src="images/product-item2.png" class="card-img-top" alt="">
-          <div class="card-body text-center">
-            <h6 class="fw-bold">Heartland Stars</h6>
-            <p class="text-muted mb-1">Lauren Asher</p>
-            <p class="text-accent fw-bold">$870</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card border-0 shadow-sm">
-          <img src="images/product-item3.png" class="card-img-top" alt="">
-          <div class="card-body text-center">
-            <h6 class="fw-bold">Heavenly Bodies</h6>
-            <p class="text-muted mb-1">Lauren Asher</p>
-            <p class="text-accent fw-bold">$870</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card border-0 shadow-sm">
-          <img src="images/product-item4.png" class="card-img-top" alt="">
-          <div class="card-body text-center">
-            <h6 class="fw-bold">His Saving Grace</h6>
-            <p class="text-muted mb-1">Lauren Asher</p>
-            <p class="text-accent fw-bold">$870</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="hero py-5">
-    <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
-      <div>
-        <img src="images/banner-image3.png" class="img-fluid rounded" alt="Stack of Books" width="400">
-      </div>
-      <div class="text-center text-lg-end">
-        <h2 class="fw-bold display-6">30% Discount<br>On All Items.<br>Hurry Up !!!</h2>
-        <a href="#" class="btn btn-accent px-4 py-2 rounded-pill mt-3">Shop Collection</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="container py-5">
-    <div class="row g-4">
-      <div class="col-md-6">
-        <h4 class="fw-bold mb-3">Featured</h4>
-        <div class="card border-0 shadow-sm mb-3">
-          <div class="row g-0 align-items-center">
-            <div class="col-3">
-              <img src=images/product-item2.png" class="img-fluid rounded-start" alt="">
-            </div>
-            <div class="col-9">
-              <div class="card-body">
-                <h6 class="fw-bold">Echoes Of The Ancients</h6>
-                <p class="text-muted mb-0">Lauren Asher</p>
-                <p class="text-accent fw-bold mb-0">$870</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0 shadow-sm mb-3">
-          <div class="row g-0 align-items-center">
-            <div class="col-3">
-              <img src="images/product-item1.png" class="img-fluid rounded-start" alt="">
-            </div>
-            <div class="col-9">
-              <div class="card-body">
-                <h6 class="fw-bold">The Midnight Garden</h6>
-                <p class="text-muted mb-0">Lauren Asher</p>
-                <p class="text-accent fw-bold mb-0">$870</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0 shadow-sm">
-          <div class="row g-0 align-items-center">
-            <div class="col-3">
-              <img src="images/product-item3.png" class="img-fluid rounded-start" alt="">
-            </div>
-            <div class="col-9">
-              <div class="card-body">
-                <h6 class="fw-bold">Shadow Of The Serpent</h6>
-                <p class="text-muted mb-0">Lauren Asher</p>
-                <p class="text-accent fw-bold mb-0">$870</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <h4 class="fw-bold mb-3">Latest Items</h4>
-        <div class="card border-0 shadow-sm mb-3">
-          <div class="row g-0 align-items-center">
-            <div class="col-3">
-              <img src="images/item-image4.jpg" class="img-fluid rounded-start" alt="">
-            </div>
-            <div class="col-9">
-              <div class="card-body">
-                <h6 class="fw-bold">Whispering Winds</h6>
-                <p class="text-muted mb-0">Lauren Asher</p>
-                <p class="text-accent fw-bold mb-0">$870</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0 shadow-sm mb-3">
-          <div class="row g-0 align-items-center">
-            <div class="col-3">
-              <img src="images/item-image5.jpg" class="img-fluid rounded-start" alt="">
-            </div>
-            <div class="col-9">
-              <div class="card-body">
-                <h6 class="fw-bold">The Forgotten Realm</h6>
-                <p class="text-muted mb-0">Lauren Asher</p>
-                <p class="text-accent fw-bold mb-0">$870</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0 shadow-sm">
-          <div class="row g-0 align-items-center">
-            <div class="col-3">
-              <img src="images/insta-item6.jpg" class="img-fluid rounded-start" alt="">
-            </div>
-            <div class="col-9">
-              <div class="card-body">
-                <h6 class="fw-bold">Moonlit Secrets</h6>
-                <p class="text-muted mb-0">Lauren Asher</p>
-                <p class="text-accent fw-bold mb-0">$870</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="container py-5 text-center">
-    <h4 class="fw-bold mb-4">Categories</h4>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="category position-relative">
-          <img src="images/category1.jpg" class="img-fluid rounded" alt="">
-          <span class="badge bg-accent position-absolute top-50 start-50 translate-middle p-2">Romance</span>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="category position-relative">
-          <img src="images/category2.jpg" class="img-fluid rounded" alt="">
-          <span class="badge bg-accent position-absolute top-50 start-50 translate-middle p-2">Lifestyle</span>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="category position-relative">
-          <img src="images/category3.jpg" class="img-fluid rounded" alt="">
-          <span class="badge bg-accent position-absolute top-50 start-50 translate-middle p-2">Recipe</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="bg-white py-5 border-top">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 mb-3">
-          <img src="images/main-logo.png" alt="Logo" class="d-inline-block align-text-top"></a>
-          <p class="text-muted">Nisi purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit. Gravida massa volutpat aenean odio erat nullam fringilla.</p>
-        </div>
-        <div class="col-md-2">
-          <h6 class="fw-bold">Quick Links</h6>
-          <ul class="list-unstyled text-muted">
-            <li><a href="#" class="text-decoration-none text-muted">Home</a></li>
-            <li><a href="#" class="text-decoration-none text-muted">About</a></li>
-            <li><a href="#" class="text-decoration-none text-muted">Shop</a></li>
-            <li><a href="#" class="text-decoration-none text-muted">Blogs</a></li>
-            <li><a href="#" class="text-decoration-none text-muted">Contact</a></li>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-danger"
+                aria-current="page"
+                href="#"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">SHOP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">PAGES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">CONTACT</a>
+            </li>
           </ul>
         </div>
-        <div class="col-md-3">
-          <h6 class="fw-bold">Help & Info Help</h6>
-          <ul class="list-unstyled text-muted">
-            <li>Track Your Order</li>
-            <li>Returns Policies</li>
-            <li>Shipping + Delivery</li>
-            <li>Contact Us</li>
-            <li>FAQs</li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <h6 class="fw-bold">Contact Us</h6>
-          <p class="text-muted">Do you have any queries or suggestions?<br><a href="mailto:yourinfo@gmail.com" class="text-accent">yourinfo@gmail.com</a></p>
-          <p class="text-muted">If you need support, just give <br>us a call: <strong> +55 111 222 333 44</strong></p>
+      </nav>
+    </header>
+
+    <div class="container-row banner-container position-relative">
+      <img src="images/banner-image-bg.jpg" class="img-fluid" alt="Banner" />
+      <div class="banner-overlay">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-7 col-md-8 col-12 text-center text-lg-start">
+            <h1 class="header-text">The Fine Print <br />Book Collection</h1>
+            <p class="p-head">Best Offer Save 30%. Grab it now!</p>
+            <button type="button" class="btn rounded-pill text-light px-4 py-2">
+              Shop Collection
+            </button>
+          </div>
+          <div class="col-lg-5 col-md-4 col-12 text-center">
+            <img
+              src="images/banner-image2.png"
+              class="img-fluid"
+              alt="Book Collection"
+            />
+          </div>
         </div>
       </div>
     </div>
-  </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <div class="container my-5">
+      <div class="row text-center">
+        <div class="col-md-3 col-12 mb-4 mb-md-0 text-start">
+          <h4>Free Delivery</h4>
+          <p class="w-50">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-md-3 col-12 mb-4 mb-md-0 text-start">
+          <h4>Quality Guarantee</h4>
+          <p class="w-50">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-md-3 col-12 mb-4 mb-md-0 text-start">
+          <h4>Daily Offers</h4>
+          <p class="w-50">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-md-3 col-12 text-start">
+          <h4 class="w-50">100% Secure Payment</h4>
+          <p class="w-50">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title mb-0">Best Selling Items</h2>
+          <a href="#" class="btn rounded-pill text-light px-4 py-2">View All</a>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="card book-card h-100 py-4">
+              <img
+                src="images/product-item1.png"
+                class="card-img-top"
+                alt="Book Cover"
+              />
+              <div class="card-body">
+                <h5>House of Sky Breath</h5>
+                <p>Lauren Asher</p>
+                <p class="text-danger">$19.99</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card book-card h-100 py-4">
+              <img
+                src="images/product-item2.png"
+                class="card-img-top"
+                alt="Book Cover"
+              />
+              <div class="card-body">
+                <h5>Heartland Stars</h5>
+                <p>Lauren Asher</p>
+                <p class="text-danger">$22.50</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card book-card h-100 py-4">
+              <img
+                src="images/product-item3.png"
+                class="card-img-top"
+                alt="Book Cover"
+              />
+              <div class="card-body">
+                <h5>Heavenly Bodies</h5>
+                <p>Lauren Asher</p>
+                <p class="text-danger">$18.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card book-card h-100 py-4">
+              <img
+                src="images/product-item4.png"
+                class="card-img-top"
+                alt="Book Cover"
+              />
+              <div class="card-body">
+                <h5>His Saving Grace</h5>
+                <p>Lauren Asher</p>
+                <p class="text-danger">$15.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container-row banner-container position-relative">
+      <img src="images/banner-image-bg-1.jpg" class="img-fluid" alt="Banner" />
+      <div class="banner-overlay">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-5 col-md-4 col-12">
+            <img
+              src="images/banner-image3.png"
+              class="img-fluid"
+              alt="Book Collection"
+            />
+          </div>
+          <div class="col-lg-7 col-md-8 col-12 text-center text-lg-start">
+            <h1 class="header-text">
+              30% Discount <br />On All Items. <br />Hurry Up!!!
+            </h1>
+            <button type="button" class="btn rounded-pill text-light px-4 py-2">
+              Shop Collection
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="card list-card border-0 shadow-sm">
+              <div class="card-body p-4">
+                <h3 class="section-title mb-4">Featured</h3>
+
+                <div class="list-item">
+                  <img src="images/product-item2.png" alt="Book" />
+                  <div class="list-item-info">
+                    <h6 class="title">Echoes Of The Ancients</h6>
+                    <p class="author">Lauren Asher</p>
+                    <div class="price text-danger">$870</div>
+                  </div>
+                </div>
+                <hr />
+
+                <div class="list-item">
+                  <img src="images/product-item1.png" alt="Book" />
+                  <div class="list-item-info">
+                    <h6 class="title">The Midnight Garden</h6>
+                    <p class="author">Lauren Asher</p>
+                    <div class="price text-danger">$870</div>
+                  </div>
+                </div>
+                <hr />
+
+                <div class="list-item">
+                  <img src="images/product-item3.png" alt="Book" />
+                  <div class="list-item-info">
+                    <h6 class="title">Shadow Of The Serpent</h6>
+                    <p class="author">Lauren Asher</p>
+                    <div class="price d-flex align-items-center text-danger">
+                      $870
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card list-card border-0 shadow-sm">
+              <div class="card-body p-4">
+                <h3 class="section-title mb-4">Latest Items</h3>
+                <div class="list-item">
+                  <img src="images/product-item4.png" alt="Book" />
+                  <div class="list-item-info">
+                    <h6 class="title">Whispering Winds</h6>
+                    <p class="author">Lauren Asher</p>
+                    <div class="price text-danger">$870</div>
+                  </div>
+                </div>
+                <hr />
+
+                <div class="list-item">
+                  <img src="images/product-item5.png" alt="Book" />
+                  <div class="list-item-info">
+                    <h6 class="title">The Forgotten Realm</h6>
+                    <p class="author">Lauren Asher</p>
+                    <div class="price text-danger">$870</div>
+                  </div>
+                </div>
+                <hr />
+
+                <div class="list-item">
+                  <img src="images/product-item6.png" alt="Book" />
+                  <div class="list-item-info">
+                    <h6 class="title">Moonlit Secrets</h6>
+                    <p class="author">Lauren Asher</p>
+                    <div class="price text-danger">$870</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <h2 class="section-title pb-5">Categories</h2>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="card category-card text-white">
+              <img
+                src="images/category1.jpg"
+                class="card-img"
+                alt="Romance Category"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-between p-0"
+              >
+                <div class="category-name btn rounded-3 text-light px-4">
+                  Romance
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card category-card text-white">
+              <img
+                src="images/category2.jpg"
+                class="card-img"
+                alt="Thriller Category"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-between p-0"
+              >
+                <div class="category-name btn rounded-3 text-light px-4">
+                  Lifestyle
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card category-card text-white">
+              <img
+                src="images/category3.jpg"
+                class="card-img"
+                alt="Fantasy Category"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-between p-0"
+              >
+                <div class="category-name btn rounded-3 text-light px-4">
+                  Recipe
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="space"></div>
+
+    <footer class="footer pt-5 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <img src="images/main-logo.png" alt="Logo" />
+            <p class="w-75">
+              Nisi, purus vitae, ultrices nunc.Sit ac sit suscipit hendrerit.
+              Gravida massa volutpat aenean odio erat nullam fringilla.
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h5>Quick Links</h5>
+            <ul class="list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5>Help & Info Help</h5>
+            <ul class="list">
+              <li><a href="#">Track Your Order</a></li>
+              <li><a href="#">Return Policies</a></li>
+              <li><a href="#">Shipping + Delivery</a></li>
+              <li><a href="#">Conact Us</a></li>
+              <li><a href="#">Faqs</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5>Contact Us</h5>
+            <p>Do you have any queries or suggestions?</p>
+            <p class="text-decoration-underline">yourinfo@gmail.com</p>
+            <p>If you need support? Just give us a call.</p>
+            <p class="text-decoration-underline">0912345678</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
